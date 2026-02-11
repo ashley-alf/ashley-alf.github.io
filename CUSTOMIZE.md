@@ -62,7 +62,7 @@ Here we will give you some tips on how to customize the website. One important t
     - [How it works](#how-it-works)
     - [Configuration](#configuration-1)
     - [Disable related posts for a specific post](#disable-related-posts-for-a-specific-post)
-    - [Additional configuration in _config.yml](#additional-configuration-in-_configyml)
+    - [Additional configuration in \_config.yml](#additional-configuration-in-_configyml)
   - [Managing publication display](#managing-publication-display)
   - [Adding a Google Calendar](#adding-a-google-calendar)
     - [Basic usage](#basic-usage)
@@ -323,6 +323,7 @@ Understanding how these technologies work together will help you customize al-fo
 Your CV can be created using one of two formats. Choose the format that works best for you, or use both simultaneously by switching between them:
 
 ### RenderCV Format (Recommended)
+#Ended up choosing this one 
 
 [`_data/cv.yml`](_data/cv.yml) uses the [RenderCV](https://rendercv.com/) YAML format, which is human-readable and designed specifically for generating professional resumes. This format also enables optional automatic PDF generation via GitHub Actions.
 
@@ -333,7 +334,7 @@ Your CV can be created using one of two formats. Choose the format that works be
    - [`assets/rendercv/design.yaml`](assets/rendercv/design.yaml) — Design and styling
    - [`assets/rendercv/locale.yaml`](assets/rendercv/locale.yaml) — Localization and formatting
    - [`assets/rendercv/settings.yaml`](assets/rendercv/settings.yaml) — RenderCV settings
-3. To display only this format, delete [`assets/json/resume.json`](assets/json/resume.json) (optional)
+3. To display only this format, delete [`assets/json/resume.json`](assets/json/resume.json) (optional) 
 
 ### JSONResume Format
 
@@ -372,6 +373,7 @@ cv_pdf: /assets/rendercv/rendercv_output/CV.pdf
 cv_format: rendercv
 ---
 ```
+#Did these too 
 
 This will add a download button on your CV page that links to the PDF. (The exact filename depends on your RenderCV settings—check the output directory after the first workflow run to see the generated PDF name.)
 
