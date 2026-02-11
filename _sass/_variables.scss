@@ -19,7 +19,10 @@ $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+$purple-color: #4d7b50!default;
+// $purple-color: #2e6c39!default;
+
+
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
@@ -28,11 +31,11 @@ $yellow-color: #efcc00 !default;
 $grey-color: #605c60 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 //in dark mode, this is the background
-$grey-color-dark: #38082b;//in dark mode, this is the background
+$grey-color-dark: #836993 ;//in dark mode, this is the background
 $grey-900: #303132; 
 // MY COLORS 
 $pinky-light-color: #f5e7fb !default;
-$pinky-dark-color:#3a1b44 !default;
+$pinky-dark-color:#3a0c56 !default;
 //$pinky-dark-color:#653f6d !default;
 // $pinky-dark-color:#653f6d !default;  like this one
 // $pinky-dark-color:#4a2442 !default;
@@ -40,7 +43,8 @@ $pinky-dark-color:#3a1b44 !default;
 $cream-color: #f4f2e2 !default; // first choice 
 //$cream-color: #fffdf0 !default;
 $white-color: #ffffff !default;
-$black-color: #883f81 !default;
+$black-color: #4c1b70 !default;
+// $black-color: #3a0c56 !default;
 
 // Theme colors
 
