@@ -29,7 +29,7 @@ cv:
         area: Computer Science
         studyType: M.S
         start_date: 2025
-        end_date: 1905
+        # end_date: 1
         # score: ""
         # courses: "Theory of Relativity"
         # highlights:
