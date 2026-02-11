@@ -5,7 +5,8 @@
 
 @use "sass:color";
 
-// Colors
+// Color
+$space: #ff3636 !default;
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
@@ -24,18 +25,27 @@ $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
 
-$grey-color: #828282 !default;
+$grey-color: #605c60 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
-$grey-900: #212529;
+//in dark mode, this is the background
+$grey-color-dark: #38082b;//in dark mode, this is the background
+$grey-900: #303132; 
+// MY COLORS 
+$pinky-light-color: #f5e7fb !default;
+$pinky-dark-color:#3a1b44 !default;
+//$pinky-dark-color:#653f6d !default;
+// $pinky-dark-color:#653f6d !default;  like this one
+// $pinky-dark-color:#4a2442 !default;
 
+$cream-color: #f4f2e2 !default; // first choice 
+//$cream-color: #fffdf0 !default;
 $white-color: #ffffff !default;
-$black-color: #000000 !default;
+$black-color: #883f81 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-light: rgba($pinky-dark-color, 0.05);
+$code-bg-color-dark: #581168 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
