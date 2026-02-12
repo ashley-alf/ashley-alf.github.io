@@ -102,7 +102,7 @@
 
 .post {
   .post-meta {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color-light); //created on blah 
     font-size: 0.875rem;
     margin-bottom: 0;
   }
@@ -118,15 +118,16 @@
       text-decoration: none;
 
       &:hover {
-        color: var(--global-theme-color);
+        color: var(--global-text-color-light);
       }
     }
   }
 }
 
+//   --global-code-bg-color
 .featured-posts {
   a {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color); //min reads and dates
     text-decoration: none;
 
     .card-text {
@@ -136,16 +137,16 @@
     }
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-divider-color); //hover of min reads and dates 
 
       .card-title {
-        color: var(--global-theme-color);
+        color: var(--global-text-color-light); //hover of car title 
       }
     }
   }
 
   .post-meta {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color-light); //idk what this does 
     font-size: 0.875rem;
     margin-bottom: 0;
     padding-top: 0.5rem;
@@ -157,11 +158,14 @@
   font-size: 0.875rem;
 
   a {
-    color: inherit;
+    color: inherit; //dont know
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-text-color);
       text-decoration: none;
     }
   }
+}
+.featured-posts a > p.card-text {
+  color: var(--global-divider-color) !important;
 }

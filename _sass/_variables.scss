@@ -33,12 +33,21 @@ $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 //in dark mode, this is the background
 $grey-color-dark: #836993 ;//in dark mode, this is the background
 $grey-900: #303132; 
+
 // MY COLORS 
 $pinky-light-color: #f5e7fb !default;
-$pinky-dark-color:#3a0c56 !default;
-//$pinky-dark-color:#653f6d !default;
-// $pinky-dark-color:#653f6d !default;  like this one
-// $pinky-dark-color:#4a2442 !default;
+$purple-dark-color:#32243b!default;
+$white-d-text-color:#d5e3d6!default;
+$hash-d-text-color: #c7f7c3!default;
+$theme-d-color:#896f8e!default;
+$hover-d-color: #9ecf9d!default;
+$footer-d-color:#896f8e!default;
+$divider-d-color:#aaa2b3!default;
+// $card-d-color:#586e5c!default;
+// $card-d-color:#7f9481!default;
+$card-d-color:#685875!default;
+
+
 
 $cream-color: #f4f2e2 !default; // first choice 
 //$cream-color: #fffdf0 !default;
@@ -47,9 +56,10 @@ $black-color: #4c1b70 !default;
 // $black-color: #3a0c56 !default;
 
 // Theme colors
+$code-bg-color-light: rgba($purple-dark-color, 0.05);
+// $code-bg-color-dark: #581168 !default;
+$code-bg-color-dark: rgba($purple-dark-color, 0.05);
 
-$code-bg-color-light: rgba($pinky-dark-color, 0.05);
-$code-bg-color-dark: #581168 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";

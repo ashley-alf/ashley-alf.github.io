@@ -76,36 +76,22 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{v.$pinky-dark-color};
-  --global-code-bg-color: #{v.$code-bg-color-dark};
-  --global-text-color: #{v.$pinky-light-color};
-  --global-text-color-light: #{v.$green-color-dark};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
+  --global-bg-color: #{v.$purple-dark-color};
+  --global-code-bg-color: #{v.$red-color}; //idk what this does
+  --global-text-color: #{v.$white-d-text-color};
+  --global-text-color-light: #{v.$hash-d-text-color}; //hashtags 
+  --global-theme-color: #{v.$theme-d-color}; //links and stuff
+  --global-hover-color: #{v.$hover-d-color};
   --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-light};
-  --global-footer-text-color: #{v.$grey-color-dark};
-  --global-footer-link-color: #{v.$black-color};
-  --global-distill-app-color: #{v.$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{v.$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel(v.$white-color, "red", v.$space: rgb)},
-    #{color.channel(v.$white-color, "green", v.$space: rgb)},
-    #{color.channel(v.$white-color, "blue", v.$space: rgb)},
-    0.5
-  );
-  //  --global-back-to-top-bg-color: rgba(
-  //   #{color.channel(v.$white-color, "red", $v.space)},
-  //   #{color.channel(v.$white-color, "green", $v.space: rgb)},
-  //   #{color.channel(v.$white-color, "blue", $v.space: rgb)},
-  //   0.5
-  // );
-
-
+  --global-footer-bg-color: #{v.$footer-d-color};
+  --global-footer-text-color: #{v.$footer-d-color};
+  --global-footer-link-color: #{v.$footer-d-color};
+  --global-distill-app-color: #{v.$red-color};
+  --global-divider-color: #{v.$divider-d-color};;
+  --global-card-bg-color: #{v.$card-d-color};
   --global-back-to-top-text-color: #{v.$black-color};
-  --global-newsletter-bg-color: #{v.$grey-color-light};
-  --global-newsletter-text-color: #{v.$grey-color-dark};
+  --global-newsletter-bg-color: #{v.$red-color};
+  --global-newsletter-text-color: #{v.$red-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #215d42;
@@ -119,6 +105,13 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #600;
   --global-danger-block-text: #ffb9b9;
   --global-danger-block-title: #ffe0e0;
+  --global-back-to-top-bg-color: rgba(
+    #{color.channel(v.$white-color, "red", v.$space: rgb)},
+    #{color.channel(v.$white-color, "green", v.$space: rgb)},
+    #{color.channel(v.$white-color, "blue", v.$space: rgb)},
+    0.5
+  );
+
 
   .only-light {
     display: none;
