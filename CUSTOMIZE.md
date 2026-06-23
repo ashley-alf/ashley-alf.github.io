@@ -62,7 +62,7 @@ Here we will give you some tips on how to customize the website. One important t
     - [How it works](#how-it-works)
     - [Configuration](#configuration-1)
     - [Disable related posts for a specific post](#disable-related-posts-for-a-specific-post)
-    - [Additional configuration in _config.yml](#additional-configuration-in-_configyml)
+    - [Additional configuration in \_config.yml](#additional-configuration-in-_configyml)
   - [Managing publication display](#managing-publication-display)
   - [Adding a Google Calendar](#adding-a-google-calendar)
     - [Basic usage](#basic-usage)
@@ -851,7 +851,7 @@ Depending on your specified footer behavior, the sign up form either will appear
 The theme includes a powerful search functionality that can be customized in [\_config.yml](_config.yml):
 
 ```yaml
-bib_search: true
+bib_search: false
 posts_in_search: true
 search_enabled: true
 socials_in_search: true

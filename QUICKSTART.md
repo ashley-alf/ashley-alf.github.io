@@ -15,7 +15,6 @@
     - [Add Your Content](#add-your-content)
     - [Customize Appearance](#customize-appearance)
     - [Learn More](#learn-more)
-    - [Get Help from AI](#get-help-from-ai)
 
 <!--te-->
 
@@ -89,7 +88,7 @@ Once your site is running, explore these customization options:
 - Frequently asked questions: [FAQ.md](FAQ.md)
 - Troubleshooting: [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 
-### Get Help from AI
+s### Get Help from AI
 
 Use the **GitHub Copilot Customization Agent** (if you have Copilot) to:
 
@@ -100,7 +99,6 @@ Use the **GitHub Copilot Customization Agent** (if you have Copilot) to:
 See [CUSTOMIZE.md § GitHub Copilot Customization Agent](CUSTOMIZE.md#github-copilot-customization-agent) for details.
 
 ---
-
 **Common first steps:**
 
 - Change the theme color in `_config.yml`

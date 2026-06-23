@@ -8,57 +8,27 @@
 // Color
 $space: #ff3636 !default;
 $red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #4d7b50!default;
-// $purple-color: #2e6c39!default;
-
-
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+// $darkgreen-text-color: #2f6532 !default;
+$darkgreen-text-color: #005906 !default;
+$main-text-color: #4a2273 !default; //fourth
 
 $grey-color: #605c60 !default;
-$grey-color-light: color.adjust($grey-color, $lightness: 40%);
-//in dark mode, this is the background
-$grey-color-dark: #836993 ;//in dark mode, this is the background
-$grey-900: #303132; 
+$grey-color-dark: #836993 !default;
+$purple-dark-color: #32243b !default;
 
-// MY COLORS 
-$pinky-light-color: #f5e7fb !default;
-$purple-dark-color:#32243b!default;
-$white-d-text-color:#d5e3d6!default;
-$hash-d-text-color: #c7f7c3!default;
-$theme-d-color:#896f8e!default;
-$hover-d-color: #9ecf9d!default;
-$footer-d-color:#896f8e!default;
-$divider-d-color:#aaa2b3!default;
-// $card-d-color:#586e5c!default;
-// $card-d-color:#7f9481!default;
-$card-d-color:#685875!default;
+$main-text-color-light: #5a5a5a !default;
+$gray-color: #575555 !default;
 
-
-
-$cream-color: #f4f2e2 !default; // first choice 
-//$cream-color: #fffdf0 !default;
+//dark
+$white-d-text-color: #d5e3d6 !default;
+$hash-d-text-color: #b9fcc7 !default;
+$theme-d-color: #ab8ab2 !default;
+$hover-d-color: #baf1b8 !default;
+$footer-d-color: #896f8e !default;
+$divider-d-color: #aaa2b3 !default;
+$card-d-color: #685875 !default;
+$cream-color: #f4f2e2 !default;
 $white-color: #ffffff !default;
-$black-color: #4c1b70 !default;
-// $black-color: #3a0c56 !default;
-
-// Theme colors
-$code-bg-color-light: rgba($purple-dark-color, 0.05);
-// $code-bg-color-dark: #581168 !default;
-$code-bg-color-dark: rgba($purple-dark-color, 0.05);
 
 
 // Font awesome location
@@ -68,9 +38,8 @@ $fa-font-path: "../webfonts";
 $back-to-top-z-index: 10;
 $back-to-top-bottom: 30px;
 $back-to-top-right: 30px;
-$back-to-top-diameter: 40px;
-$back-to-top-height: $back-to-top-diameter;
-$back-to-top-width: $back-to-top-diameter;
+$back-to-top-height: 40px;
+$back-to-top-width: 40px;
 
 // Max width default
 $max-content-width: 930px !default;

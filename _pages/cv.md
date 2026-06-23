@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: true
+nav: false
 nav_order: 2
 # cv_pdf: /assets/rendercv/rendercv_output/CV.pdf
 cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
