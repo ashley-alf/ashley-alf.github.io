@@ -30,7 +30,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am a second-year graduate student in the [CS theory group](https://www.colorado.edu/cs-theory/) at CU Boulder, advised by [Huck Bennett](https://home.cs.colorado.edu/~hbennett/#) and [Rafael Frongillo](https://raf.prof/). 
+I am a graduate student in the [CS theory group](https://www.colorado.edu/cs-theory/) at CU Boulder, advised by [Huck Bennett](https://home.cs.colorado.edu/~hbennett/#) and [Rafael Frongillo](https://raf.prof/). 
 
 I am broadly interested in theoretical computer science, particularly algorithms, fine-grained complexity, and game-theoretic probability.
 

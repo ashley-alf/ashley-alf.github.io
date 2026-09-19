@@ -25,10 +25,8 @@
   - firstname: ["Erwin"]
     url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
+"frongillo":
+  - firstname: ["Rafel"]
     url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+
