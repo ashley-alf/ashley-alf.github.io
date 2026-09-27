@@ -6,7 +6,7 @@ subtitle: <a href='https://www.colorado.edu/'>University of Colorado Boulder</a>
 
 profile:
   align: right
-  image: ash_alf.jpg
+  image: ashley.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>asra1416@colorado.edu</p>
