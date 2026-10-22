@@ -23,7 +23,25 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "news-i-will-be-attending-the-dimacs-workshop-on-fine-grained-complexity-of-graph-and-string-problems-at-rutgers-university-i-am-excited-to-learn-more-about-the-research-being-done-in-the-field-and-to-meet-new-people",
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "post-apsp-is-not-seth-hard-under-nseth",
+        
+          title: "APSP Is Not SETH-hard Under NSETH",
+        
+        description: "Sorting out the Carmosino et al. (2016) algorithm for APSP",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/APSPnseth/";
+          
+        },
+      },{id: "news-i-will-be-attending-the-dimacs-workshop-on-fine-grained-complexity-of-graph-and-string-problems-at-rutgers-university-i-am-excited-to-learn-more-about-the-research-being-done-in-the-field-and-to-meet-new-people",
           title: 'I will be attending the DIMACS Workshop on Fine-Grained Complexity of Graph and...',
           description: "",
           section: "News",},{
