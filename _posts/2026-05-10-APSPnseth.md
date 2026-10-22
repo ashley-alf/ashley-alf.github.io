@@ -11,8 +11,4 @@ This post explains the nondeterministic and co-nondeterministic algorithms for A
 
 Please email me with any feedback, errors, or questions! 
 
-<iframe
-  src="/assets/pdf/APSP_nseth.pdf"
-  width="100%"
-  height="600px">
-</iframe>
+<embed src="{{ '/assets/pdf/APSP_nseth.pdf' | relative_url }}" type="application/pdf" width="100%" height="600px">
